@@ -1,0 +1,7 @@
+n = int(input("Enter integer:"))
+print(n)
+integers =input(f"Enter {n} integers:")
+print(integers)
+nums=list(map(int,integers.split()))
+rev_nums=(nums[-1::-1])
+print(" ".join(map(str,(rev_nums))))

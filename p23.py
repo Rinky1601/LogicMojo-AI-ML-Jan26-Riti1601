@@ -1,0 +1,7 @@
+n=int(input("Enter integer:"))
+print(n)
+integers =input(f"Enter {n} integers:")
+print(integers)
+nums=list(map(int,integers.split()))
+nums.sort()
+print(f" Min: {nums[0]} and max : {nums[len(nums)-1]}")

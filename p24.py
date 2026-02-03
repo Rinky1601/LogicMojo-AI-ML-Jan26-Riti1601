@@ -1,0 +1,7 @@
+n = int(input("Enter integer:"))
+print(n)
+integers =input(f"Enter {n} integers:")
+print(integers)
+occ =int(input("Enter the integer for which you need count :"))
+nums=list(map(int,integers.split()))
+print(nums.count(occ))
